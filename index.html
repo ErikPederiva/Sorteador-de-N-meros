@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//style.css">
+    <title>Sorteador de Números</title>
+</head>
+<body>
+    <div onclick="noContent()" class="result-display">
+        <div class="content-result-display">
+            <h1>Número Sorteado:</h1>
+            <h2 class="result-number"></h2>
+        </div>
+    </div>
+    <main>
+        <img src="./assets/dado.png"> 
+        <h1 class="title">Sorteador de Números</h1>
+
+        <section id="inputs">
+            <input id="input-min"  placeholder="Insira um Número Mínimo" type="number">
+            <input id="input-max" placeholder="Insira um Número Máximo" type="number">
+        </section>
+
+        <button disabled id="raffle-button" >Sortear</button>
+   </main>
+    
+</body>
+    <script src="./scripts.js"></script>
+</html>
