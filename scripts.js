@@ -33,8 +33,6 @@ function raffle() {
 
 }
 
-
-
 function noContent() {
 
     resultDisplay.style.display = "none"
